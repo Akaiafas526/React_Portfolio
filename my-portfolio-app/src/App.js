@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { About, Portfolio, Contact, Resume } from './components/pages';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import { About, Projects, Contact, Resume } from './components/Pages';
+import Header from './components/Header/header';
+import Footer from './components/Footer/footer';
 
 function App () {
     const [page,setPage] = useState('About Me');
@@ -16,8 +16,8 @@ function App () {
         switch (page) {
             case 'About Me':
                 return <About />
-            case 'Portfolio':
-                return <Portfolio setPage={setPage} projectId={projectId} setProjectId={setProjectId}/>
+            case 'Projets':
+                return <Projects setPage={setPage} projectId={projectId} setProjectId={setProjectId}/>
             case 'Contact':
                 return <Contact />
             case 'Resume':
