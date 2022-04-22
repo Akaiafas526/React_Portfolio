@@ -1,17 +1,19 @@
 import React from "react";
-import Nav from "./nav";
-// import "./header.css";
-import { navigationLinks } from "./navigationLinks";
 
 function Header({ page, setPage }) {
+  const navLinks = ["About Me", "Portfolio", "Contact", "Resume"];
   return (
     <div className="navContainer">
       <div className="navName"> Andreas Kaiafas </div>
       <div className="navLinkContainer">
-        {/* Navigation Links mapped from the navagationData.js file */}
-        {navigationLinks.map((navLink, index) => (
+        {navLinks.map((link, index) => (
           <div key={index}>
-            <Nav navLink={navLink} page={page} setPage={setPage} />
+            <div
+              className={`link ${link === page ? "selected" : ""}`}
+              onClick={() => setPage(link)}
+            >
+              {link}
+            </div>
           </div>
         ))}
       </div>
