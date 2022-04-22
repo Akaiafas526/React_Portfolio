@@ -1,22 +1,20 @@
 import React from "react";
 
 function Header({ page, setPage }) {
-  const navLinks = ["About Me", "Portfolio", "Contact", "Resume"];
+  const navLinks = ["About Me", "Projects", "Contact"];
   return (
     <div className="navContainer">
       <div className="navName"> Andreas Kaiafas </div>
-      <div className="navLinkContainer">
+      <ul className="navLinkContainer">
         {navLinks.map((link, index) => (
-          <div key={index}>
-            <div
-              className={`link ${link === page ? "selected" : ""}`}
-              onClick={() => setPage(link)}
-            >
-              {link}
-            </div>
-          </div>
+          <li
+            className={`${link === page ? "selected" : ""}`}
+            onClick={() => setPage(link)}
+          >
+            {link}
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
