@@ -10,7 +10,7 @@ function Header({ page, setPage }) {
           <li
             className={`${link === page ? "selected" : ""}`}
             onClick={() => setPage(link)}
-            key = {index}
+            key={index}
           >
             {link}
           </li>

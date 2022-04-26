@@ -4,7 +4,7 @@ import Contact from "./components/Pages/Contact/contact";
 import Projects from "./components/Pages/Projects/projects";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
-import './App.css'
+import "./App.css";
 
 function App() {
   const [page, setPage] = useState("About Me");

@@ -1,8 +1,8 @@
 import React from "react";
 // import './footer.css';
-import Github from "../../assets/github-brands.svg"
-import Linkedin from "../../assets/linkedin-brands.svg"
-import Resume from "../../assets/file-solid.svg"
+import { ReactComponent as Github } from "../../assets/github-brands.svg";
+import { ReactComponent as Linkedin } from "../../assets/linkedin-brands.svg";
+import { ReactComponent as Resume } from "../../assets/file-solid.svg";
 
 function Footer() {
   return (
@@ -13,21 +13,24 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={Github} alt="github"></img>
+          {/* <img src={Github} alt="github"></img> */}
+          <Github />
         </a>
         <a
           href="https://www.linkedin.com/in/andreas-kaiafas-62641a13a/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={Linkedin} alt="linkedin"></img>
+          {/* <img src={Linkedin} alt="linkedin"></img> */}
+          <Linkedin />
         </a>
         <a
           href="../assets/andreas_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={Resume} alt="resume"></img>
+          {/* <img src={Resume} alt="resume"></img> */}
+          <Resume />
         </a>
       </div>
     </div>
