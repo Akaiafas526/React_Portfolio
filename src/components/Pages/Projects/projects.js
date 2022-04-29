@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
         <div className="project-container" id="project-3">
           <div className="title-card">
-            <h2 className="project-title"></h2>
+            <h2 className="project-title">Note Taker</h2>
             <a className="repo" href="https://github.com/Akaiafas526/Note_Taker">
               repo
             </a>
@@ -39,12 +39,12 @@ export default function Projects() {
         </div>
         <div className="project-container" id="project-4">
           <div className="title-card">
-            <h2 className="project-title"></h2>
+            <h2 className="project-title">NBA Stat Website</h2>
             <a className="repo" href="https://github.com/danchanyoungkim/NBA-Team-Stats">
-              repo
+              <h5>Repository</h5>
             </a>
             <a className="deploy" href="https://danchanyoungkim.github.io/NBA-Team-Stats/">
-              deploy
+              <h5>Deployed</h5>
             </a>
           </div>
         </div>
