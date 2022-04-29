@@ -40,10 +40,10 @@ export default function Projects() {
         <div className="project-container" id="project-4">
           <div className="title-card">
             <h2 className="project-title"></h2>
-            <a className="repo" href="">
+            <a className="repo" href="https://github.com/danchanyoungkim/NBA-Team-Stats">
               repo
             </a>
-            <a className="deploy" href="">
+            <a className="deploy" href="https://danchanyoungkim.github.io/NBA-Team-Stats/">
               deploy
             </a>
           </div>
