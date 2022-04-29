@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
+import ProfilePic from "../../../assets/profile_pic.png";
 
 export default function About() {
   return (
     <div className="about">
       <div className="about-header">
-          <img src="./assets/images/profile_pic.png" alt="Profile Picture"></img>
-        <h2> Introduction </h2>
+          <img className="profile-pic" src={ProfilePic} alt="Profile Picture"></img>
       </div>
 
       <div className="about-text">
+        <div className="about-header">
+        <h2> Introduction </h2>
+        </div>
+        <div className="text-area">
         <p>
           {" "}
           Hello my name is Andreas Kaiafas a junior software developer and tester with
@@ -27,6 +31,7 @@ export default function About() {
           kitchen. I've found my new love and I am looking forward to pursuing a
           career in software developement.
         </p>
+        </div>
       </div>
     </div>
   );

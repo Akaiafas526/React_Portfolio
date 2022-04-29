@@ -14,7 +14,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
           {/* <img src={Github} alt="github"></img> */}
-          <Github />
+          <Github className="img" />
         </a>
         <a
           href="https://www.linkedin.com/in/andreas-kaiafas-62641a13a/"
@@ -22,15 +22,15 @@ function Footer() {
           rel="noopener noreferrer"
         >
           {/* <img src={Linkedin} alt="linkedin"></img> */}
-          <Linkedin />
+          <Linkedin className="img" />
         </a>
-        <a
+        <a 
           href="../assets/andreas_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
           {/* <img src={Resume} alt="resume"></img> */}
-          <Resume />
+          <Resume id="img" />
         </a>
       </div>
     </div>
