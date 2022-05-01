@@ -1,8 +1,7 @@
 # REACT Portfolio
 
 ## Description
-A brand new social app where you can unlock a new world of networking through posting pictures that represent who you are and what you stand for. Users can browse other members posts and even view a webpage personalized just for them! Bet you can't wait to sign up!
-
+A personal Portfolio built with REACT!
 ## Table of Contents
 
 [Links](#links)
@@ -13,7 +12,7 @@ A brand new social app where you can unlock a new world of networking through po
 
 [Usage](#usage)
 
-[Contributors](#contributors)
+[GitHub](#github)
 
 [License](#license)
 
