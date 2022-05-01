@@ -238,6 +238,11 @@
   background-position: top ;
 }
 
+.project-title {
+  text-decoration: underline;
+  color: black;
+}
+
 .repo {
 display: flex;
 flex-direction: row;

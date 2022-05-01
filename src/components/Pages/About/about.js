@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="about-header">
-          <img className="profile-pic" src={ProfilePic} alt="Profile Picture"></img>
+          <img className="profile-pic" src={ProfilePic} alt="myself"></img>
       </div>
 
       <div className="about-text">
