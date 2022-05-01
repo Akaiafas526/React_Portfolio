@@ -20,7 +20,7 @@ A brand new social app where you can unlock a new world of networking through po
 [Questions](#questions)
 
 ## Links
-[Portfolio Deployed Link](https://snapshotban.herokuapp.com/)
+[Portfolio Deployed Link](https://react-portfolio-ak.netlify.app/)
 
 ## Media
 The following image shows the home page: 
