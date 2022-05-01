@@ -238,6 +238,13 @@
   background-position: top ;
 }
 
+.repo {
+display: flex;
+flex-direction: row;
+
+
+}
+
 @media screen and (min-width: 667px) {
   .sub-projects {
 flex-direction: row;

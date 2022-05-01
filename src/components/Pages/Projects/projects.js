@@ -19,10 +19,10 @@ export default function Projects() {
           <div className="title-card">
             <h2 className="project-title">Tech Blog</h2>
             <a className="repo" href="https://github.com/Akaiafas526/Tech_Blogtechblog">
-              repo
+            Repository:
             </a>
             <a className="deploy" href="https://tech-blog-ak.herokuapp.com/">
-              deploy
+              Deployed:
             </a>
           </div>
         </div>
@@ -30,10 +30,10 @@ export default function Projects() {
           <div className="title-card">
             <h2 className="project-title">Note Taker</h2>
             <a className="repo" href="https://github.com/Akaiafas526/Note_Taker">
-              repo
+            Repository
             </a>
             <a className="deploy" href="https://note-taker-andreas.herokuapp.com/">
-              deploy
+              Deployed:
             </a>
           </div>
         </div>
@@ -41,10 +41,10 @@ export default function Projects() {
           <div className="title-card">
             <h2 className="project-title">NBA Stat Website</h2>
             <a className="repo" href="https://github.com/danchanyoungkim/NBA-Team-Stats">
-              <h5>Repository</h5>
+              <h5>Repository:</h5>
             </a>
             <a className="deploy" href="https://danchanyoungkim.github.io/NBA-Team-Stats/">
-              <h5>Deployed</h5>
+              <h5>Deployed:</h5>
             </a>
           </div>
         </div>

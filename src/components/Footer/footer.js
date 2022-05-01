@@ -13,7 +13,6 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <img src={Github} alt="github"></img> */}
           <Github className="img" />
         </a>
         <a
@@ -21,15 +20,13 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <img src={Linkedin} alt="linkedin"></img> */}
           <Linkedin className="img" />
         </a>
-        <a 
-          href="../assets/andreas_resume.pdf"
+        <a
+          href="../resume/andreas_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <img src={Resume} alt="resume"></img> */}
           <Resume id="img" />
         </a>
       </div>
