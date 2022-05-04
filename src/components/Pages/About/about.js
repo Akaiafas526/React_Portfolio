@@ -16,7 +16,7 @@ export default function About() {
         <p>
           {" "}
           Hello my name is Andreas Kaiafas a junior software developer and tester with
-          a passion for creativity and self developement. My love and passion
+          a passion for creativity and self development. My love and passion
           for learning has carried me from a career focused around digging deep
           into the science of our food and agriculture, to an exciting new
           adventure engineering our futures software!
