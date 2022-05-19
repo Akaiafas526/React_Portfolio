@@ -33,7 +33,6 @@
 .nav-links li {
   margin-right: 25px;
   width: 120px;
-
 }
 
 .nav-links li:hover {
@@ -202,14 +201,13 @@
 }
 
 .title-card {
-  background-color: blanchedalmond;
+  background-color: rgb(60, 107, 194);
   width: 100%;
   height: 50px;
-  color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-
 
 .project-container {
   width: 100%;
@@ -220,40 +218,50 @@
 #project-1 {
   background-image: url("../src/assets/snapshot.png");
   background-size: cover;
-  background-position: top ;
+  background-position: top;
 }
 #project-2 {
   background-image: url("../src/assets/techblog.png");
   background-size: cover;
-  background-position: top ;
+  background-position: top;
 }
-#project-3{
+#project-3 {
   background-image: url("../src/assets/notetaker.png");
   background-size: cover;
-  background-position: top ;
+  background-position: top;
 }
 #project-4 {
   background-image: url("../src/assets/statpage.png");
   background-size: cover;
-  background-position: top ;
+  background-position: top;
 }
 
 .project-title {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 
 .repo {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  transition: color 1s linear;
+}
 
+.repo :hover {
+  color: black;
+}
 
+.fa-icon {
+  /* color: white; */
+  font-size: 24px;
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 667px) {
   .sub-projects {
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
